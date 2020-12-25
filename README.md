@@ -25,23 +25,23 @@ output:顯示
 (判斷質數的部分有上網查資料:https://www.itread01.com/content/1549230666.html  :
 目的：用matlab編寫一個可以判斷質數的函式。
 
-          1)若是質數，返回1；
+ 1)若是質數，返回1；
 
-          2）若不是，返回0。
+ 2）若不是，返回0。
 
 程式碼：
 
-function s = prime_22(n)
-for i = 2 : n-1
-    if mod(n,i)==0
-        s = 0;   % s = 0 表示為合數
-        break; 
-    else
+    function s = prime_22(n)
+    for i = 2 : n-1
+        if mod(n,i)==0
+            s = 0;   % s = 0 表示為合數
+            break; 
+        else
 
-        s = 1;   % s = 1 表示為質數
+            s = 1;   % s = 1 表示為質數
+        end
+    end   
     end
-end   
-end
 
 
 )。   
