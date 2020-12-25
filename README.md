@@ -3,12 +3,18 @@ final_project-Yung-Hsuan created by GitHub Classroom
 
 我做的是project 17,有兩個程式：squarnew.m和squar2.m。    
 程式squarnew.m是造出n×n由中間1順時針依序寫下數字的矩陣，以及用image顯示質數點為黑色，合數點為白色的矩陣樣子。  
-例如：. 
-input：3. 
-output:顯示. 
-7 8 9. 
-6 1 2.    
-5 4 3. 
+例如：
+ 
+input：3
+
+output:顯示
+
+7 8 9
+ 
+6 1 2
+  
+5 4 3
+ 
 和image出來的圖
 我先造出一個空矩陣A，判斷輸入的值n是奇數還是偶數後，用for迴圈寫出矩陣四邊從外層到內層之間的關係，來製造這n*n矩陣。
 然後用mod指令來判斷每一個位子的點是否是質數(判斷質數的部分有上網查資料)。如果那個點是質數，就在最先造出的空矩陣X裡的那個位子設為2，否則就設為1。
