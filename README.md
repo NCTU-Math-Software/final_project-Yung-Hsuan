@@ -2,7 +2,10 @@
 final_project-Yung-Hsuan created by GitHub Classroom
 
 我做的是project 17,有兩個程式：squarnew.m和squar2.m。    
-程式squarnew.m是造出n×n由中間1向右順時針依序寫下數字的矩陣，以及用image顯示質數點為黑色，合數點為白色的矩陣樣子。  
+程式squarnew.m是造出n×n由中間1向右順時針依序寫下數字的矩陣，以及用image顯示質數點為黑色，合數點為白色的矩陣樣子。程式squar2.m是算出n*n矩陣在不造出矩陣的情況下，算出對角線和反對角線的總和。  
+
+程式squarnew.m:
+
 例如：
  
 input：3
@@ -22,7 +25,8 @@ output:顯示
 最後，定義map:[0 0 0]代表RGB都是0，表示黑色；[1 1 1]代表RGB都是1，表示白色，用colormap和image顯示著色後矩陣的樣子。  
 
 
-程式squar2.m是算出n*n矩陣在不造出矩陣的情況下，算出對角線和反對角線的總和。  
+程式squar2.m:
+
 例如：
 
 input:3
