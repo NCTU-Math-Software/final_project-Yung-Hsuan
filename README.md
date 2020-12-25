@@ -1,8 +1,8 @@
-# final_project-Yung-Hsuan
+# Project17-造出矩陣-Yung-Hsuan
 final_project-Yung-Hsuan created by GitHub Classroom
 
 我做的是project 17,有兩個程式：squarnew.m和squar2.m。    
-程式squarnew.m是造出n×n由中間1向右順時針依序寫下數字的矩陣，以及用image顯示質數點為黑色，合數點為白色的矩陣樣子。程式squar2.m是算出n*n矩陣在不造出矩陣的情況下，算出對角線和反對角線的總和。  
+程式squarnew.m是造出n×n由1向右順時針依序寫下數字的矩陣，以及用image顯示質數點為黑色，合數點為白色的矩陣樣子。程式squar2.m是算出n*n矩陣在不造出矩陣的情況下，算出對角線和反對角線的總和。  
 
 程式squarnew.m:
 
